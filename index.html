@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Iconos Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   
+    <title>Busqueda</title>
+</head>
+<body>
+    <nav class="container-fluid bg-danger text-light">
+        <h2 class="ps-2 py-3">Busqueda de libros</h2>
+      </nav>
+    
+    <!-- FORMULARIO DE BUSQUEDA -->
+    <div class="container-fluid">
+    <form id="searchForm"class="row mt-2">
+        <div class="col-7 m-auto">
+            
+            <label for="inputSearch" class="form-label">Buscar:</label>
+            <div class="d-flex">
+                <input type="search" class="form-control col-7" id="inputSearch" autocomplete="off"placeholder="Ingresa el titulo del libro a buscar">
+                <button type="submit" class="btn btn-primary"><i class="bi bi-search"></i></button>
+            </div>      
+        </div>
+    </form>
+    </div>
+    <!-- TITULO -->
+    <h2 class="text-center mt-4">Lista de Libros</h2>
+
+    <!-- CONTENEDOR DE ELEMENTOS -->
+    <div id="contenedor"class="container accordion my-4">
+
+    </div>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+   
+</body>
+</html>
